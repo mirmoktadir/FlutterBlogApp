@@ -25,6 +25,7 @@ class _SingleBlog3ScreenState extends State<SingleBlog3Screen> {
     title = jsonData.title;
     userId = jsonData.userId;
     body = jsonData.body;
+    setState(() {});
   }
 
   @override

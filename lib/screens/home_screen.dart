@@ -5,7 +5,6 @@ import 'package:blogosphere/screens/single_blog_3_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:blogosphere/components/blog_cards.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
 import 'package:blogosphere/components/data_json.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -104,6 +103,28 @@ class _HomeScreenState extends State<HomeScreen> {
                 userId: '$userId',
                 img1: 'd.png',
                 img2: 'f.png',
+                route: SingleBlog1Screen.id,
+              ),
+              BlogsCard(
+                blogText: '$title',
+                userId: '$userId',
+                img1: 'b.png',
+                img2: 'f.png',
+                route: SingleBlog2Screen.id,
+              ),
+              BlogsCard(
+                blogText: '$title',
+                userId: '$userId',
+                img1: 'c.png',
+                img2: 'f.png',
+                route: SingleBlog3Screen.id,
+              ),
+              BlogsCard(
+                blogText: '$title',
+                userId: '$userId',
+                img1: 'd.png',
+                img2: 'f.png',
+                route: SingleBlogScreen.id,
               ),
               BlogsCard(
                 blogText: '$title',
@@ -146,27 +167,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 img1: 'd.png',
                 img2: 'f.png',
                 route: SingleBlog2Screen.id,
-              ),
-              BlogsCard(
-                blogText: '$title',
-                userId: '$userId',
-                img1: 'b.png',
-                img2: 'f.png',
-                route: SingleBlog3Screen.id,
-              ),
-              BlogsCard(
-                blogText: '$title',
-                userId: '$userId',
-                img1: 'c.png',
-                img2: 'f.png',
-                route: SingleBlogScreen.id,
-              ),
-              BlogsCard(
-                blogText: '$title',
-                userId: '$userId',
-                img1: 'd.png',
-                img2: 'f.png',
-                route: SingleBlog1Screen.id,
               ),
             ],
           ),
